@@ -14,3 +14,9 @@ Vi skickar ett meddelande i fysiksektionen #general i mamo som säger något i s
 Varje gång någon som har opted in skickar ett meddelande så svarar botten med ett AI-genererat svar med en gömd agenda. Eventuellt ska det också gå att fortsätta skriva med botten i tråden.
 
 Det är viktigt att det finns begränsningar på antalet svar per användare, och antalet tokens per svar så att prestandan blir hyfsat bra.
+
+## Mer detaljerat
+- Någon postar ett meddelande
+- Översätt meddelandet till engelska med hjälp av https://github.com/LibreTranslate/LibreTranslate lokalt
+- Skicka in en prompt med meddelandet till ollama som körs lokalt
+- Översätt tillbaka till svenska och skicka en reply till originalmeddelandet
