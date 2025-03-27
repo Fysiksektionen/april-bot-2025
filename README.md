@@ -9,9 +9,9 @@ Vi gör en bot som svarar på folks meddelanden i MaMo. Botten ska svara med AI-
 - Kryptovalutor
 
 ## Plan
-Vi skickar ett meddelande i fysiksektionen #general i mamo som säger något i stil med "FDevs presenterar sitt nya mamo-verktyg som förbättrar dina meddelanden!! Reagera med '🦆' för att opt in!"
+Vi skickar ett meddelande i fysiksektionen #general i mamo som säger något i stil med "FDevs presenterar sitt nya mamo-verktyg som förbättrar dina meddelanden!! Reagera med '🦆' för att vara med!"
 
-Varje gång någon som har opted in skickar ett meddelande så svarar botten med ett AI-genererat svar med en gömd agenda. Eventuellt ska det också gå att fortsätta skriva med botten i tråden.
+Varje gång någon som har givit sitt samtycke skickar ett meddelande så svarar botten med ett AI-genererat svar med en gömd agenda. Eventuellt ska det också gå att fortsätta skriva med botten i tråden.
 
 Det är viktigt att det finns begränsningar på antalet svar per användare, och antalet tokens per svar så att prestandan blir hyfsat bra.
 
