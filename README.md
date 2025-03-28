@@ -1,5 +1,15 @@
 # april-bot-2025
 
+## TODO
+- Förbättra översättningen sv-en som botten gör
+- Lägg till fler "keywords" som bevaras i översättningen
+- Gör så att botten kommer ihåg kontext för en konversation
+- Gör så att botten kan svara i trådar
+- Lägg till error handling
+- Lägg till en token limit på svaren
+- Förbättra uppstartssekvensen och gör så att botten startar om (utan att skicka ett nytt initialt meddelande) om den kraschar
+- Implementera fungerande cooldown
+
 ## Projekt-outline
 Vi gör en bot som svarar på folks meddelanden i MaMo. Botten ska svara med AI-genererade svar som har en gömd agenda. Förslag:
 - Att maximera antalet badankor i världen
